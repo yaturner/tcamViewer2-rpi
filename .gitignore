@@ -1,0 +1,13 @@
+.gradle/
+.kotlin/
+build/
+*/build/
+.idea/
+*.iml
+out/
+local.properties
+flatpak/.flatpak-builder/
+flatpak/build-dir/
+flatpak/repo/
+flatpak/*.flatpak
+*.snap
