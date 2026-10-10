@@ -4,9 +4,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Linux/desktop viewer for the [tCam](https://github.com/danjulio/tCam) thermal imaging camera — a
-Compose Multiplatform Desktop port of [tcamViewer2](https://github.com/yaturner/tcamViewer2) (the
-Android app). Connects to a tCam over WiFi/TCP (port 5001), decodes its JSON-framed radiometric +
+**Raspberry Pi (arm64) port** of
+[tcamViewerDesktop](https://github.com/yaturner/tcamViewerDesktop) — a Compose Multiplatform
+Desktop viewer for the [tCam](https://github.com/danjulio/tCam) thermal imaging camera. This repo
+started as a full copy of tcamViewerDesktop's source (not a GitHub fork — independent history) so
+it can diverge for Pi-specific needs (packaging, GPU/driver quirks, etc.) without being tied to the
+x86_64 desktop release cadence. For the generic Linux/x86_64 desktop build, see
+tcamViewerDesktop itself; for the original Android app, see
+[tcamViewer2](https://github.com/yaturner/tcamViewer2).
+
+Connects to a tCam over WiFi/TCP (port 5001), decodes its JSON-framed radiometric +
 telemetry frames, applies a color palette, and displays live thermal video with spotmeter/region
 temperature readout.
 

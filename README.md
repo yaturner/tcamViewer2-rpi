@@ -1,8 +1,10 @@
-# tcamViewerDesktop
+# tcamviewer2-rpi
 
-Linux/desktop viewer for the [tCam](https://github.com/danjulio/tCam) thermal imaging camera —
-a Compose Multiplatform Desktop port of [tcamViewer2](https://github.com/yaturner/tcamViewer2)
-(the Android app).
+Raspberry Pi (arm64) port of [tcamViewerDesktop](https://github.com/yaturner/tcamViewerDesktop) —
+a Compose Multiplatform Desktop viewer for the [tCam](https://github.com/danjulio/tCam) thermal
+imaging camera, originally ported from [tcamViewer2](https://github.com/yaturner/tcamViewer2)
+(the Android app). Started as a full copy of tcamViewerDesktop's source so it can diverge for
+Raspberry Pi-specific needs.
 
 Connects to a tCam over WiFi/TCP (port 5001), decodes its JSON-framed radiometric + telemetry
 frames, applies a color palette, and displays live thermal video with spotmeter/region
