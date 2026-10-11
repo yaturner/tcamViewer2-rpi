@@ -1,4 +1,4 @@
-# tcamviewer2-rpi
+# tcamViewer2-rpi
 
 Raspberry Pi (arm64) port of [tcamViewerDesktop](https://github.com/yaturner/tcamViewerDesktop) —
 a Compose Multiplatform Desktop viewer for the [tCam](https://github.com/danjulio/tCam) thermal
