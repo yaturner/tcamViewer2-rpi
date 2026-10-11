@@ -10,6 +10,20 @@ Connects to a tCam over WiFi/TCP (port 5001), decodes its JSON-framed radiometri
 frames, applies a color palette, and displays live thermal video with spotmeter/region
 temperature readout.
 
+## Download
+
+Prebuilt arm64 binaries (built natively on a Raspberry Pi 4, Raspberry Pi OS 64-bit/Bookworm) are
+published on the [Releases page](https://github.com/yaturner/tcamViewer2-rpi/releases). Grab the
+`.tar.gz`, extract it, and run:
+
+```bash
+tar xzf tcamViewer2-rpi-<version>-linux-arm64.tar.gz
+cd <extracted-dir>
+./bin/tcamViewerDesktop
+```
+
+No JDK install needed — the tarball bundles its own runtime.
+
 ## Build & run
 
 ```bash
