@@ -12,7 +12,7 @@ temperature readout.
 
 ## Download
 
-Prebuilt arm64 binaries (built natively on a Raspberry Pi 4, Raspberry Pi OS 64-bit/Bookworm) are
+Prebuilt arm64 binaries (built natively on a Raspberry Pi 4, Raspberry Pi OS 64-bit/Trixie) are
 published on the [Releases page](https://github.com/yaturner/tcamViewer2-rpi/releases). Grab the
 `.tar.gz`, extract it, and run:
 
