@@ -57,8 +57,10 @@ The UI has four tabs behind a `NavigationRail` (`ui/App.kt`):
   pattern) over camera IP, a Saved Cameras quick-connect list (every camera found or connected to,
   most-recent first) with an Auto-connect-on-launch toggle, an mDNS "Find tCam Devices" search
   button, palette, units, manual range, shutter sound, spotmeter/region toggle, temperature
-  alerts, and — while connected — AGC/emissivity/gain mode and a WiFi config dialog with SSID
-  scanning (`nmcli`). Switching tabs away from Settings with unsaved changes asks to confirm.
+  alerts, and — while connected — AGC/emissivity/gain mode, a WiFi config dialog with SSID
+  scanning (`nmcli`), and **Update Firmware...**, which checks danjuliodesigns.com for the latest
+  tCam / tCam-Mini release and installs it over the air (or installs a `.bin` you pick yourself).
+  Switching tabs away from Settings with unsaved changes asks to confirm.
 - **Library** (`ui/LibraryScreen.kt`) — browses saved `.tjsn` frames, `.tmjsn` recordings, and
   `.tltjsn` time lapses grouped by date folder, multi-select delete, a date-range filter, a
   full-size browse view with Export-to-PNG, frame-by-frame video playback
